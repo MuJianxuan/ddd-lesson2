@@ -5,33 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a15cb87-7c79-48b9-8b32-0733b92cab7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ddd-lesson2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feiniaojin/dddlesson2/DddLesson2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feiniaojin/dddlesson2/dao/PlayOpeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feiniaojin/dddlesson2/dto/CpMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feiniaojin/dddlesson2/dto/MvpMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feiniaojin/dddlesson2/entity/PlayerOpe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feiniaojin/dddlesson2/listener/CpListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feiniaojin/dddlesson2/listener/MvpListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feiniaojin/dddlesson2/service/PlayerOpeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/feiniaojin/dddlesson2/DddLesson2ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/PlayerOpeApplicationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/CpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/MvpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/dp/EntityId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/entity/PlayerOpeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/factory/PlayerOpeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/repository/PlayerOpeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/datamodel/PlayerOpe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/factoryimpl/PlayerOpeFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/mapper/PlayOpeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/repositoryimpl/PlayerOpeRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/launcher/DddApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/userinterface/mqlistener/CpListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/userinterface/mqlistener/MvpListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,11 +48,6 @@
         <option name="mavenHome" value="$PROJECT_DIR$/../../tools/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="$PROJECT_DIR$/../../tools/apache-maven-3.6.1/conf/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="disabledProfiles">
-      <list>
-        <option value="jdk-1.8" />
-      </list>
     </option>
   </component>
   <component name="ProjectColorInfo">{
@@ -90,13 +75,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.DddLesson2Application.executor": "Debug",
-    "last_opened_file_path": "/Users/qinyujie/xdev/github/ddd-lesson2/assets",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rao/Project/dddStudy/ddd-lesson2/src/main/java/com/rao/dddstudy/userinterface",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -104,9 +91,16 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rao.dddstudy.application.command" />
+      <recent name="com.rao.dddstudy.infrastructure.factoryimpl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/userinterface" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/userinterface/mqlistener" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/datamodel" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -128,7 +122,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
       </set>
     </attachedChunks>
   </component>
@@ -143,6 +137,7 @@
       <workItem from="1710260252832" duration="1925000" />
       <workItem from="1710262185264" duration="4081000" />
       <workItem from="1710499341208" duration="10979000" />
+      <workItem from="1710764222389" duration="10912000" />
     </task>
     <servers />
   </component>
