@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a15cb87-7c79-48b9-8b32-0733b92cab7c" name="Changes" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/dp/PlayerId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/PlayerOpeApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/PlayerOpeApplicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/CpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/CpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/MvpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/MvpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/entity/PlayerOpeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/player/PlayerOpeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/factory/PlayerOpeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/player/PlayerOpeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/repository/PlayerOpeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/player/PlayerOpeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/factoryimpl/PlayerOpeFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/factoryimpl/PlayerOpeFactoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/repositoryimpl/PlayerOpeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/repositoryimpl/PlayerOpeRepositoryImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="1a15cb87-7c79-48b9-8b32-0733b92cab7c" name="Changes" comment="优化" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +122,7 @@
       <workItem from="1710499341208" duration="10979000" />
       <workItem from="1710764222389" duration="11945000" />
       <workItem from="1711636931784" duration="975000" />
-      <workItem from="1711637977344" duration="1905000" />
+      <workItem from="1711637977344" duration="2668000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <option name="closed" value="true" />
@@ -151,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710778876080</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="优化">
+      <option name="closed" value="true" />
+      <created>1711719324836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711719324836</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +168,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化" />
   </component>
 </project>
