@@ -1,4 +1,4 @@
-package com.rao.dddstudy.domain.factory;
+package com.rao.dddstudy.domain.player;
 
 /**
  * @author create 2024/3/18 by rao

@@ -2,8 +2,9 @@ package com.rao.dddstudy.application;
 
 import com.rao.dddstudy.application.command.CpCommand;
 import com.rao.dddstudy.application.command.MvpCommand;
-import com.rao.dddstudy.domain.entity.PlayerOpeEntity;
-import com.rao.dddstudy.domain.repository.PlayerOpeRepository;
+import com.rao.dddstudy.domain.dp.PlayerId;
+import com.rao.dddstudy.domain.player.PlayerOpeEntity;
+import com.rao.dddstudy.domain.player.PlayerOpeRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -25,7 +26,8 @@ public class PlayerOpeApplicationService {
      */
     public void handleCpCount(CpCommand cmd) {
         // 创建 找实体
-        PlayerOpeEntity playerOpeEntity = playerOpeRepository.load(cmd.getPlayerId());
+        PlayerId playerId = new PlayerId(cmd.getPlayerId());
+        PlayerOpeEntity playerOpeEntity = playerOpeRepository.load(playerId);
         // 实体调用业务处理方法
         playerOpeEntity.handleCpCount(cmd.getCpPlayerId());
         // 保存实体
@@ -33,7 +35,7 @@ public class PlayerOpeApplicationService {
     }
 
     public void handleMvp(MvpCommand cmd) {
-        PlayerOpeEntity playerOpeEntity = playerOpeRepository.load(cmd.getPlayerId());
+        PlayerOpeEntity playerOpeEntity = playerOpeRepository.load(new PlayerId(cmd.getPlayerId()));
         playerOpeEntity.handleMvp(cmd.getMvpTime());
         playerOpeRepository.saveOrUpdate(playerOpeEntity);
     }

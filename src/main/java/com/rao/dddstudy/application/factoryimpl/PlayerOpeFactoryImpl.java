@@ -1,6 +1,6 @@
-package com.rao.dddstudy.infrastructure.factoryimpl;
+package com.rao.dddstudy.application.factoryimpl;
 
-import com.rao.dddstudy.domain.factory.PlayerOpeFactory;
+import com.rao.dddstudy.domain.player.PlayerOpeFactory;
 import org.springframework.stereotype.Component;
 
 /**

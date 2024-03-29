@@ -1,6 +1,7 @@
-package com.rao.dddstudy.domain.entity;
+package com.rao.dddstudy.domain.player;
 
 import com.rao.dddstudy.domain.dp.EntityId;
+import com.rao.dddstudy.domain.dp.PlayerId;
 import com.rao.dddstudy.infrastructure.datamodel.PlayerOpe;
 import lombok.Data;
 
@@ -12,15 +13,15 @@ import java.util.Date;
 @Data
 public class PlayerOpeEntity{
 
-    /**
-     * 实体 ID
-     */
-    private EntityId entityId;
+    ///**
+    // * 实体 ID
+    // */
+    //private EntityId entityId;
 
     /**
      * 玩家ID
      */
-    private String playerId;
+    private PlayerId playerId;
 
     /**
      * 首次获得MVP时间，默认是9999-12-31 23:59:59

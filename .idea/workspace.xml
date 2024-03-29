@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a15cb87-7c79-48b9-8b32-0733b92cab7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/PlayerOpeApplicationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/CpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/MvpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/dp/EntityId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/entity/PlayerOpeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/factory/PlayerOpeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/repository/PlayerOpeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/datamodel/PlayerOpe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/factoryimpl/PlayerOpeFactoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/mapper/PlayOpeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/repositoryimpl/PlayerOpeRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/launcher/DddApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/userinterface/mqlistener/CpListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/userinterface/mqlistener/MvpListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1a15cb87-7c79-48b9-8b32-0733b92cab7c" name="Changes" comment="gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/dp/PlayerId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/PlayerOpeApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/PlayerOpeApplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/CpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/CpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/MvpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/command/MvpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/entity/PlayerOpeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/player/PlayerOpeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/factory/PlayerOpeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/player/PlayerOpeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/repository/PlayerOpeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/domain/player/PlayerOpeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/factoryimpl/PlayerOpeFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/application/factoryimpl/PlayerOpeFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/repositoryimpl/PlayerOpeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rao/dddstudy/infrastructure/repositoryimpl/PlayerOpeRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,34 +56,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven.ddd-lesson2 [clean].executor": "Run",
-    "Maven.ddd-lesson2 [install].executor": "Run",
-    "Maven.ddd-lesson2 [test].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.DddLesson2Application.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rao/Project/dddStudy/ddd-lesson2/src/main/java/com/rao/dddstudy/userinterface",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven.ddd-lesson2 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ddd-lesson2 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ddd-lesson2 [test].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DddLesson2Application.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rao/Project/dddStudy/ddd-lesson2/src/main/java/com/rao/dddstudy/userinterface&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.rao.dddstudy.application.command" />
@@ -137,14 +131,46 @@
       <workItem from="1710260252832" duration="1925000" />
       <workItem from="1710262185264" duration="4081000" />
       <workItem from="1710499341208" duration="10979000" />
-      <workItem from="1710764222389" duration="10912000" />
+      <workItem from="1710764222389" duration="11945000" />
+      <workItem from="1711636931784" duration="975000" />
+      <workItem from="1711637977344" duration="1905000" />
     </task>
+    <task id="LOCAL-00001" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1710778640186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710778640186</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1710778876080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710778876080</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
 </project>
